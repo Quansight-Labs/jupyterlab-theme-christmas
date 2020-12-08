@@ -389,7 +389,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 /* Notebook */
 
-.jp-Notebook {
+body[data-jp-theme-name="JupyterLab Christmas"] .jp-Notebook {
   background-image: url('./stringlights.svg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -398,6 +398,6 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 /* DirListing */
 
-.jp-DirListing-item.jp-mod-running .jp-DirListing-itemIcon:before {
+body[data-jp-theme-name="JupyterLab Christmas"] .jp-DirListing-item.jp-mod-running .jp-DirListing-itemIcon:before {
   background-image: url('./ornament.svg');
 }
