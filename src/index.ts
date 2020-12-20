@@ -6,15 +6,15 @@ import {
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * Initialization data for the @datalayer-jupyter/jupyterlab-theme-christmas extension.
+ * Initialization data for the  @quansight-labs/jupyterlab-theme-christmas extension.
  */
 const extension: JupyterFrontEndPlugin<void> = {
-  id: '@datalayer-jupyter/jupyterlab-theme-christmas',
+  id: ' @quansight-labs/jupyterlab-theme-christmas',
   requires: [IThemeManager],
   autoStart: true,
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
-    console.log('JupyterLab extension @datalayer-jupyter/jupyterlab-theme-christmas is activated!');
-    const style = '@datalayer-jupyter/jupyterlab-theme-christmas/index.css';
+    console.log('JupyterLab extension  @quansight-labs/jupyterlab-theme-christmas is activated!');
+    const style = ' @quansight-labs/jupyterlab-theme-christmas/index.css';
     manager.register({
       name: 'JupyterLab Christmas',
       isLight: true,
